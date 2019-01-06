@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sumarak 4</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+      }
+      #str4 {
+        background-color: WhiteSmoke;
+      }
+      .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1% 3%;
+         background: linear-gradient(lightgreen, WhiteSmoke, lightgreen);
+      }
+      .header h2 a {
+        color: DarkGreen;
+        font-size: 36px;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+      .pozadina {
+        background-image: url("https://images.pexels.com/photos/1438761/pexels-photo-1438761.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+        background-size: cover;
+        height: 330px;
+        background-repeat: no-repeat;
+        background-position: center center;
+      }
+      .pozadina h1 {
+        text-align: center;
+        padding-top: 120px;
+        color: black;
+        font-weight: bold;
+      }
+      .centar {
+
+      }
+      .centar h1 {
+        margin-top: 80px;
+        margin-bottom: 10px;
+        color: DarkGreen;
+        text-align: center;
+      }
+      .centar h5 {
+        color: DarkGreen;
+        text-align: center;
+        margin-bottom: 40px;
+      }
+      img {
+        margin: auto;
+        display: block;
+        height: 370px;
+        width: 540px;
+      }
+      .centar p {
+        color: DarkGreen;
+        font-size: 16px;
+        width: 45%;
+        line-height: 1.4em;
+        letter-spacing: 0.02em;
+        display: block;
+        margin: 35px auto;
+      }
+      .footer {
+        height: 100px;
+        width: 100%;
+        color: WhiteSmoke;
+        border-top: 2px solid Green;
+        clear: both;
+        margin-top: 100px;
+      }
+      .levo {
+        margin: 20px;
+        float: left;
+      }
+      .footer p {
+        font-size: 18px;
+        padding: 10px;
+        color: Green;
+      }
+      .footer ul {
+        float: right;
+      }
+      .footer ul li {
+        list-style-type: none;
+        display: inline-block;
+      }
+      ul li a img {
+        float: left;
+        padding: 25px;
+        height: 35px;
+        width: 35px;
+      }
+
+      @media (max-width: 1160px){
+      .header h2 a {
+        font-size: 30px;
+      }
+        img {
+        height: 255px;
+        width: 315px;
+      }
+      }
+      @media (max-width: 800px){
+        .header h2 a {
+        font-size: 26px;
+      }
+        .centar p {
+          font-size: 15px;
+          width: 65%;
+        }
+        img {
+        height: 230px;
+        width: 290px;
+      }
+        .footer {
+          display: flex;
+          flex-direction: column-reverse;
+          justify-content: center;
+          align-items: center;
+          height: 135px;
+        }
+        .footer p {
+          padding: 1px;
+        }
+      }
+      </style>
+  </head>
+  <body>
+    <div id="str4">
+    <div class="header">
+      <h2><a href="index.html" target="blank">Prirodnjački Centar Šumarak</a></h2>
+      </div>
+
+      <div class="pozadina">
+        <h1>Vesti iz Šumarka</h1>
+      </div>
+
+      <div class="centar">
+      <h1>Otvorena prodavnica suvenira
+    </h1>
+        <h5>Objavljeno 27.8.2017.</h5>
+      <img src="https://images.pexels.com/photos/206673/pexels-photo-206673.jpeg?h=350&auto=compress&cs=tinysrgb" />
+      <p>Ako želite da imate uspomenu na divnu prirodu Šumarka, njegove doline, potočiće, životinje, od sada možete kupiti suvenire, slike, razglednice, replike centra, igračke po povoljnim cenama. I kada odete iz Šumarka on će biti uz vas.
+    <br /><br />
+    Prodavnica suvenira radi od 7.00h do 24.00h.</p>
+      </div>
+
+      <div class="centar">
+      <h1>Od 1. septembra cena ulaza samo 200 dinara</h1>
+        <h5>Objavljeno 25.8.2017.</h5>
+      <img src="https://i0.wp.com/prirodnjackicentarsumarak.files.wordpress.com/2018/02/luca-bravo-364527.jpg?ssl=1&w=450" />
+      <p>U Šumarak od 1. septembra možete ući za samo 200 dinara. Na ovaj potez smo se odlučili kako bi svako ko želi da oseti duh prirode to mogao da uradi po mnogo pristupačnijoj ceni. Ova promocija će trajati do kraja 2017. godine. Od 10. januara 2018. godine, cena će ponovo biti 400 dinara po osobi.</p>
+      </div>
+
+       <div class="footer">
+          <p class="levo">&copy; Dusan Randjelovic</p>
+        <ul>
+          <li><a href="https://sr-rs.facebook.com/" target="blank"><img src="https://image.flaticon.com/icons/svg/174/174848.svg" /></a></li>
+          <li><a href="https://twitter.com/login?lang=sr" target="blank"><img src="https://image.flaticon.com/icons/svg/174/174876.svg" /></a></li>
+          <li><a href="https://www.instagram.com/accounts/login/" target="blank"><img src="https://image.flaticon.com/icons/svg/174/174855.svg" /></a></li>
+        </ul>
+      </div>
+
+    </div>
+  </body>
+</html>
